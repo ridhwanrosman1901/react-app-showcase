@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# React Application Showcase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application is a showcase of my development skills, demonstrating a variety of functionalities and techniques. It includes features such as routing, data fetching, and interactive components.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a web application built with React that showcases several key features and technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Home**: Provides an overview of the application and links to other pages.
+- **About**: Details the purpose of the application, its features, technologies used, development highlights, learning outcomes, and future enhancements.
+- **Skills**: Demonstrates various React Hooks and their usage, including `useState`, `useEffect`, `useReducer`, and `useMemo`.
+- **FetchData**: Shows how I fetch data from an API and display it in a list.
+- **Task**: A mini project To-Do List application that allows users to add and display tasks.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interactive Components**: Reusable and dynamic components for a modular codebase.
+- **Routing and Navigation**: Implemented with React Router for smooth transitions.
+- **Responsive Design**: Ensures usability across various devices and screen sizes.
+- **API Data Fetching**: Fetches and displays data from an external API.
+- **State Management**: Utilizes React's state management features for dynamic data handling.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Core library for building user interfaces.
+- **React Router**: Manages routing and navigation within the application.
+- **CSS**: Styling and responsive design.
+- **JavaScript**: Programming language used for functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository**
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/ridhwanrosman1901/react-app-showcase.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Navigate to the Project Directory**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd react-app-showcase
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Install Dependencies**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. **Start the Development Server**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   The application will be available at `http://localhost:3000`.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Home Page**: Provides navigation to other sections of the application.
+- **About Page**: Gives an overview of the application and its development.
+- **Skills Page**: Demonstrates React Hooks and other skills.
+- **Fetch Data Page**: Shows data fetched from an API.
+- **Task Page**: Allows users to manage a list of tasks.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you would like to contribute to this project, please follow these steps:
 
-### Making a Progressive Web App
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+Thank you for exploring my React application showcase! If you have any questions or feedback, feel free to get in touch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
