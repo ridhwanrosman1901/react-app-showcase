@@ -88,7 +88,4 @@ If you would like to contribute to this project, please follow these steps:
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
 Thank you for exploring my React application showcase! If you have any questions or feedback, feel free to get in touch.
-
-```
